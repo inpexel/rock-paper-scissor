@@ -1,0 +1,13 @@
+[
+    {"id":"rock",
+    "image":"./images/rock.png"
+    },
+
+    {"id":"paper",
+    "image":"./images/paper.png"
+    },
+
+    {"id":"scissor",
+    "image":"./images/scissor.png"
+    }
+]
