@@ -21,15 +21,13 @@ img{
 }
 
 .container{
+    margin: 0 auto;
+    max-width: 400px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
     align-items: center;
     gap: 10px;
-    /* padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px; */
 }
 
 .list{

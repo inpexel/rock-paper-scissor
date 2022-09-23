@@ -53,6 +53,11 @@ function gameResult(winner){
     winnerSection.style.display = 'block';
 }
 
+function finalResults(winner){
+    const finalResult = document.querySelector("#finalResult");
+    finalResult.innerText = winner;
+}
+
 
 function checkInput(){
     const {randomeId, randomeImage} = randomeImageSelect();
@@ -66,9 +71,10 @@ function checkInput(){
 
     
     const winner = compair(this.id, ComputerResult.id);
-    setTimeout(() => {
-        gameResult(winner)
-    }, 500);
+    finalResults(winner)
+    // setTimeout(() => {
+    //     gameResult(winner)
+    // }, 500);
     
     // winCount(winner);
     console.log(compair(this.id, ComputerResult.id));
